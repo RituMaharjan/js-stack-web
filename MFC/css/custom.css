@@ -1,0 +1,220 @@
+body{
+	background-image: url(wood.jpeg);
+	background-color: #cccccc;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: 100% 100%;
+}
+.container.top .col-md-4{
+	margin: auto;
+	height: auto;
+	padding: 0px;
+}
+
+.container.top .col-md-4 img{
+	float: left;
+	margin-top: 30px;
+	width: 90%;
+	padding-left: 0px;
+	height: 170px;
+}
+.container.top .col-md-8 img{
+	height: 140px;
+	width: 270px;
+	float: right;
+	margin-top: 25px;
+}
+.nav .col-md-4 {
+ 	margin-top: 20px;
+}
+.container.main .nav .col-md-4 img{
+	margin-top: 50px;
+	height: 45px;
+	width: 45px;
+	float: left;
+	margin-left: 10px;
+}
+.container.main .nav .col-md-4 img:hover{
+	background:rgba(1, 1, 1, 0.2);
+}
+.container.main .nav .col-md-8{
+	margin-top: 30px;
+	background-color: rgba(0, 0, 0, 0.3);
+	height: 90px;
+	border-radius: 25px;
+
+}
+.container.main .nav .col-md-8 .menu{
+	margin-top: 15px;
+	padding-top: 5px;
+	
+}
+.container.main .nav .col-md-8 button {
+  background-image: url(wo.jpg);
+  border: medium none;
+  border-radius: 10px;
+  box-shadow: 0 7px 2px black;
+  color: white;
+  height: 50px;
+  margin-left: 30px;
+  width: 15%;
+}
+.container.main .nav .col-md-8 button:hover{
+	margin-top: 1px;
+	box-shadow: 0 2px 2px black;	
+}
+.carousel-inner .caption {
+	/* border: 3px red solid; */
+	position: relative;
+	margin-top: -200px;
+	color: white;
+}
+
+section.banner1{
+	padding: 60px 20px 20px 20px;
+	margin: -30px 70px 20px 70px;
+	border: #894D2A 5px solid;
+	width: 90%;
+	border-radius: 50px;
+	border-image: url(wo.jpg) 40 round;
+}
+
+section.banner1 .carousel-inner .review img{
+	height: 50px;
+	width: 150px;
+	/*padding-bottom: 50px;
+	position: absolute;*/
+}
+
+.container.banner{
+	width: 100%;
+	border-radius: 20px;
+	overflow: hidden;
+	
+}
+section.banner1 .item{
+	border: 15px #000 solid;
+	border-image:url(w.jpg) 40 round;
+	border-radius: 10px;	
+}
+section.banner1 .item .caption
+{
+	position: absolute;
+	margin-left: 50px;
+	float: left;
+	color: white;
+	margin-top:-400px;
+	font-size: 23px;
+	font-family: serif;
+}
+
+
+section.banner1  img{
+	width: 100%;
+	border-radius: 20px;
+	position: relative;
+}
+
+.container.main .nav .col-md-8 .menu a{
+	color: white;
+	text-decoration: none;	
+}
+section.out .container{
+	margin-top: 10px;
+	width: 70%;
+	text-align: center;
+	background: linear-gradient(to bottom right, white, transparent,transparent,white);
+	border: 2px white solid;
+	color: white;
+}
+section.banner1 .carousel-example-generic a{
+	background-size: 20px;
+}
+section.out .container h3{
+	font-family: 'nimbus_roman_no9_lregular';
+	text-transform: uppercase;
+}
+section.out .container p{
+	margin-top: 30px;
+	font-size: 20px;
+	font-family: 'nimbus_roman_no9_lregular';
+}
+section.service h3{
+	text-align: center;
+	margin-top: 40px;
+	font-family: 'typography_timesregular';
+	font-size: 35px;
+}
+section.service .container img{
+	border-radius: 90px;
+	float: left;
+	margin-left: 130px;
+}
+
+section.service .container title{
+	text-align: center;
+	padding-left: 50px;	
+	margin-top: 200px;
+	padding-top: 20px;
+	font-family:'nimbus_roman_no9_lregular';
+	font-size: 20px;
+	color:#FAD1BB;
+}
+section.choose{
+	padding-top: 80px;
+}
+section.choose .row{
+	background-image: url(seal.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	width: 87%;
+	margin-left: 50px;
+
+	color: white;
+	border: 15px solid;
+	border-image:url(w.jpg) 40 stretch;
+	padding-left: 80px;
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+section.choose .row h1{
+	font-family: 'nimbus_roman_no9_lregular';
+	
+}
+section.choose .row p{
+	width: 40%;
+	font-family: 'nimbus_roman_no9_lregular';
+	font-size: 17px;
+}
+section.choose .row .mathi p{
+	padding-right: 80px;
+	width: 100%;
+}
+section.end .last{
+	text-align: center;
+	color: white;
+	font-family: 'nimbus_roman_no9_lregular';
+	padding-top: 80px;
+	padding-bottom: 50px;
+	font-size: 15px;
+
+}
+.carousel-control.left{
+	background-image: none;
+}
+.carousel-inner.itemactive img{
+	width: 100%;
+	border: 3px red solid;
+
+}
+.carousel-control.right{
+	background-image: none;
+}
+.carousel-inner .caption{
+	/*border: 3px red solid;*/
+	position: relative;
+	margin-top: -200px;
+	color: white;
+}
+
